@@ -31,7 +31,7 @@
   - Setiap menu menggunakan anchor link menuju section dengan id terkait (```#home, #about, #certificates```).
   - Class ```fixed-top``` membuat navbar tetap berada di atas saat halaman di-scroll.
 
-### 2. Hero Section (index.html)
+### 2. Hero Section (```index.html```)
   - Merupakan section utama perkenalan diri.
   - Menampilkan:
     - Nama lengkap dengan efek gradient
@@ -40,7 +40,7 @@
     - Foto profil berbentuk lingkaran
   - Layout menggunakan Bootstrap Grid (```container, row, col-lg-7, col-lg-5```) untuk membagi teks dan gambar.
 
-### 3. About Me Section (index.html)
+### 3. About Me Section (```index.html```)
   - Berisi deskripsi latar belakang pendidikan, minat, dan aktivitas organisasi.
   - Section dibungkus dengan about-box untuk membuat tampilan card transparan (glass effect).
   - Menampilkan:
@@ -48,7 +48,7 @@
     - Skills menggunakan progress bar
     - Pengalaman dalam bentuk daftar (list)
 
-### 4. Skills Feature (index.html)
+### 4. Skills Feature (```index.html```)
   - Setiap skill menggunakan komponen Bootstrap progress dan progress-bar.
   - Persentase kemampuan ditampilkan melalui:
     - Lebar bar (```style="width: ...%"```)
@@ -57,14 +57,14 @@
     - MySQL (80%)
     - Python (60%)
 
-### 5. Experience Feature (index.html)
+### 5. Experience Feature (```index.html```)
   - Berupa daftar (```<ul><li>```) pengalaman organisasi dan proyek.
   - Isi pengalaman meliputi:
     - Perancangan ERD dan struktur database
     - Staff Human Resources Development – INFORSA (2025)
     - Lead Cadre Development Division – INFORSA (2026)
 
-### 6. Certificates Section (index.html)
+### 6. Certificates Section (```index.html```)
   - Menampilkan sertifikat menggunakan komponen Bootstrap card.
   - Komponen card terdiri dari:
     - Gambar sertifikat
@@ -72,7 +72,7 @@
     - Nama penyelenggara dan tahun (Dicoding – 2025)
   - Layout menggunakan Bootstrap Grid agar card berada di tengah dan tetap responsif.
 
-## Penjelasan CSS (style.css)
+## Penjelasan CSS (```style.css```)
 
 ### 1. Global Style
   - ```body```:
