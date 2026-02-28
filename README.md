@@ -22,7 +22,7 @@
 
 ## Penjelasan Code Setiap Section/Fitur
 
-### 1. Navbar (index.html)
+### 1. Navbar (```index.html```)
   - Menggunakan komponen Bootstrap navbar dengan ```class navbar-expand-lg dan fixed-top```.
   - Berisi nama portfolio dan menu navigasi:
     - Home
