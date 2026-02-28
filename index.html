@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="id">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Website Portofolio</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
+    </head>
+
+    <body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top custom-navbar">
+        <div class="container">
+        <a class="navbar-brand fw-bold" href="#home">MY PORTOFOLIO</a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navmenu">
+            <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="#about">About Me</a></li>
+            <li class="nav-item"><a class="nav-link" href="#certificates">Certificates</a></li>
+            </ul>
+        </div>
+        </div>
+    </nav>
+
+    <header id="home" class="pt-5">
+        <div class="container pt-5">
+        <div class="row align-items-center g-4">
+            <div class="col-lg-7">
+            <h1 class="fw-bold">Hai, saya <span class="highlight-name">Franklyn Galvin Lodo</span></h1>
+            <p class="text-light">
+                Saya Adalah Mahasiswa Sistem Informasi Fakultas Teknik Universitas Mulawarman Angkatan 2024 
+            </p>
+            <a href="#about" class="btn btn-main">Tentang Saya</a>
+            <a href="#certificates" class="btn btn-outline-main">Lihat Sertifikat</a>
+            </div>
+
+            <div class="col-lg-5 text-center">
+            <img src="img/inforsa.jpeg" class="profile-img" alt="Foto Profil">
+            </div>
+        </div>
+        </div>
+    </header>
+
+    <section id="about" class="py-5">
+        <div class="container">
+            <div class="about-box p-4 p-lg-5">
+                <h2 class="section-title">About Me</h2>
+                <div class="title-line"></div>
+
+                <p class="about-text">
+                Saya adalah mahasiswa Sistem Informasi Fakultas Teknik Universitas Mulawarman angkatan 2024 dengan minat pada perancangan dan pengelolaan basis data. 
+                Saya terbiasa membuat ERD, membangun relasi antar tabel, serta menulis query SQL untuk kebutuhan manajemen data. 
+                Saya tertarik mengembangkan sistem yang terstruktur, efisien, dan mudah dipelihara.
+                </p>
+
+                <p class="about-text">
+                Selain akademik, saya aktif di organisasi Information System Association (INFORSA) pada Department of Human Resources Development. 
+                Pengalaman ini melatih saya dalam kerja sama tim, komunikasi, kepemimpinan, serta pengembangan anggota. 
+                Di waktu luang, saya rutin berolahraga di gym/angkat beban untuk menjaga kesehatan dan disiplin diri.
+                </p>
+
+        <h5 class="mt-4 mb-3">Skills</h5>
+
+        <div class="skill-item">
+            <div class="skill-top">
+                <span class="skill-name">MySQL</span>
+                <span class="skill-value">80%</span>
+            </div>
+            <div class="progress">
+                <div class="progress-bar progress-mysql" style="width: 80%"></div>
+            </div>
+        </div>
+
+        <div class="skill-item">
+            <div class="skill-top">
+                <span class="skill-name">Python</span>
+                <span class="skill-value">60%</span>
+            </div>
+            <div class="progress">
+                <div class="progress-bar progress-python" style="width: 60%"></div>
+            </div>
+        </div>
+        
+        <h5 class="mt-5 mb-4">Experience</h5>
+        <div class="experience-item">
+            <div class="exp-year">2026</div>
+            <div class="exp-content">
+                <h6>Lead of Cadre Development Division</h6>
+                <p>Human Resources Development Department – Information System Association (INFORSA)</p>
+            </div>
+        </div>
+        
+        <div class="experience-item">
+            <div class="exp-year">2025</div>
+            <div class="exp-content">
+                <h6>Staff of Human Resources Development Department</h6>
+                <p>Information System Association (INFORSA)</p>
+            </div>
+        </div>
+
+        <div class="experience-item">
+            <div class="exp-year">Project</div>
+            <div class="exp-content">
+                <h6>Database Development</h6>
+                <p>Designed ERD and developed database structures</p>
+            </div>
+        </div>
+
+    </section>
+
+    
+    <section id="certificates" class="py-5">
+        <div class="container">
+        <h2 class="section-title">Certificates</h2>
+            <div class="title-line"></div>
+            <div class="row justify-content-center g-4 mt-2">
+                <div class="col-12 col-md-8 col-lg-5">
+                    <div class="card cert-card h-100">
+                        <div class="cert-img-wrap">
+                            <img src="img/sertif1.jpeg" class="card-img-top" alt="Sertif1">
+                            <div class="card-body">
+                                <h5 class="card-title">MySQL Database Fundamentals</h5>
+                                <p class="card-text cert-meta mb-0">Dicoding - 2025</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    </body>
+    </html>
