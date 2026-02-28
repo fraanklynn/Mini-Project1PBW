@@ -87,3 +87,40 @@
     - Shadow agar navbar terlihat lebih tegas
   - ```.navbar-nav .nav-link:hover:```
     - Mengubah warna menu menjadi hijau saat hover
+   
+### 3. Hero Style
+  - ```#home:```
+    - Mengatur ukuran font judul dan deskripsi
+    - Memberikan efek glow pada background menggunakan pseudo-element ```::before```
+  - ```.highlight-name:```
+    - Memberikan efek teks gradient pada nama
+  - ```.profile-img:```
+    - Membuat foto berbentuk lingkaran
+    - Menambahkan border dan shadow
+    - Memberikan efek hover scale
+
+### 4. About Style
+  - ```.about-box:```
+    - Membuat efek glassmorphism (background transparan + blur)
+    - Border tipis dan border-radius
+  - ```.about-text:```
+    - Mengatur warna teks dan line-height agar nyaman dibaca
+   
+### 5. Skills Style
+  - ```.progress:```
+    - Mengatur tinggi dan bentuk rounded pada progress bar
+  - ```.progress-mysql:```
+    - Memberikan warna gradient orange
+  - ```.progress-python:```
+    - Memberikan warna gradient biru
+
+### 6. Certificates Style
+  - ```.card dan custom styling:```
+    - Menyesuaikan background card agar sesuai dengan tema
+    - Mengatur padding dan shadow
+    - Mengatur ukuran gambar sertifikat agar proporsional
+
+## Teknologi yang Digunakan
+  - HTML
+  - CSS
+  - Bootstrap 5
