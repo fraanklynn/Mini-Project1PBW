@@ -19,3 +19,55 @@
    - Menampilkan 1 sertifikat dalam card + gambar sertifikat
    - Ada judul sertifikat dan keterangan penerbit + tahun
 ###### <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/35b30a9a-8697-49f0-bd4d-0aac4abffbaa" />
+
+## Penjelasan Code Setiap Section/Fitur
+
+### 1. Navbar (index.html)
+  - Menggunakan komponen Bootstrap navbar dengan class navbar-expand-lg dan fixed-top.
+  - Berisi nama portfolio dan menu navigasi:
+    - Home
+    - About Me
+    - Certificates
+  - Setiap menu menggunakan anchor link menuju section dengan id terkait (#home, #about, #certificates).
+  - Class fixed-top membuat navbar tetap berada di atas saat halaman di-scroll.
+
+### 2. Hero Section (index.html)
+  - Merupakan section utama perkenalan diri.
+  - Menampilkan:
+    - Nama lengkap dengan efek gradient
+    - Deskripsi singkat sebagai mahasiswa Sistem Informasi
+    - Tombol navigasi ke About Me dan Certificates
+    - Foto profil berbentuk lingkaran
+  - Layout menggunakan Bootstrap Grid (container, row, col-lg-7, col-lg-5) untuk membagi teks dan gambar.
+
+### 3. About Me Section (index.html)
+  - Berisi deskripsi latar belakang pendidikan, minat, dan aktivitas organisasi.
+  - Section dibungkus dengan about-box untuk membuat tampilan card transparan (glass effect).
+  - Menampilkan:
+    - Dua paragraf deskripsi diri
+    - Skills menggunakan progress bar
+    - Pengalaman dalam bentuk daftar (list)
+
+### 4. Skills Feature (index.html)
+  - Setiap skill menggunakan komponen Bootstrap progress dan progress-bar.
+  - Persentase kemampuan ditampilkan melalui:
+    - Lebar bar (style="width: ...%")
+    - Angka persentase di bagian atas bar
+  - Skill yang ditampilkan:
+    - MySQL (80%)
+    - Python (60%)
+
+### 5. Experience Feature (index.html)
+  - Berupa daftar (<ul><li>) pengalaman organisasi dan proyek.
+  - Isi pengalaman meliputi:
+    - Perancangan ERD dan struktur database
+    - Staff Human Resources Development – INFORSA (2025)
+    - Lead Cadre Development Division – INFORSA (2026)
+
+### 6. Certificates Section (index.html)
+  - Menampilkan sertifikat menggunakan komponen Bootstrap card.
+  - Komponen card terdiri dari:
+    - Gambar sertifikat
+    - Judul sertifikat (MySQL Database Fundamentals)
+    - Nama penyelenggara dan tahun (Dicoding – 2025)
+  - Layout menggunakan Bootstrap Grid agar card berada di tengah dan tetap responsif.
